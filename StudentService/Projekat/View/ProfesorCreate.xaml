@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp1.View.ProfesorCreate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.View"
+        xmlns:ns="clr-namespace:Projekat.Localization"
+        mc:Ignorable="d"
+        Title="{ns:Loc ProfesorCreate}" Height="530" Width="500">
+    <Window.Resources>
+        <ControlTemplate x:Key="ValidationTemplate">
+            <StackPanel>
+                <!-- Placeholder for the TextBox itself -->
+                <AdornedElementPlaceholder x:Name="textBox" />
+                <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red" />
+            </StackPanel>
+
+        </ControlTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="185*"/>
+            <RowDefinition Height="32*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,15,0,0">
+            <Label Content="{ns:Loc Prezime}" HorizontalAlignment="Left" Margin="0,3,0,10" VerticalAlignment="Top" Width="179"/>
+            <Label Content="{ns:Loc Ime}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="0,3,0,10"/>
+            <Label Content="{ns:Loc Datum rođenja}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="0,3,0,10"/>
+            <Label Content="{ns:Loc Adresa stanovanja}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="0,3,0,10"/>
+            <Label Content="{ns:Loc Kontakt telefon}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="0,3,0,10"/>
+            <Label Content="{ns:Loc E-mail adresa}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="0,3,0,10"/>
+            <Label Content="{ns:Loc Adresa kancelarije}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="0,3,0,10"/>
+            <Label Content="{ns:Loc Broj lične karte}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="0,3,0,10"/>
+            <Label Content="{ns:Loc Zvanje}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="0,3,0,10"/>
+            <Label Content="{ns:Loc Godine staža}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="0,3,0,10"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Margin="0,15,0,0">
+            <TextBox HorizontalAlignment="Center" Text="{Binding Path=Prezime, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Center"  Text="{Binding Path=Ime, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" TextChanged="TextBox_TextChanged"/>
+            <DatePicker HorizontalAlignment="Center"  SelectedDate="{Binding Path=DatumRodj, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" SelectedDateChanged="DatePicker_SelectedDateChanged"/>
+            <TextBox HorizontalAlignment="Center"  Text="{Binding Path=AdresaStan, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Center"  Text="{Binding Path=Kontakt, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Center"  Text="{Binding Path=Email, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Center"  Text="{Binding Path=AdresaKanc, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Center"  Text="{Binding Path=Brlk, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Center"  Text="{Binding Path=Zvanje, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Center"  Text="{Binding Path=GodineStaza, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="26" Margin="0,3,0,10" TextChanged="TextBox_TextChanged"/>
+        </StackPanel>
+
+        <Button x:Name="ButtonPotvrdi" Content="{ns:Loc Potvrdi}" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Width="104" Height="33" Click="PotvrdiProfesor_Click"/>
+        <Button Content="{ns:Loc Odustani}" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1"  VerticalAlignment="Center" Width="104" Height="33" Click="CancelProfesor_Click"/>
+    </Grid>
+</Window>

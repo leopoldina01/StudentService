@@ -1,0 +1,67 @@
+﻿<Window x:Class="WpfApp1.View.StudentCreate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.View"
+        xmlns:ns="clr-namespace:Projekat.Localization"
+        mc:Ignorable="d"
+        Title="{ns:Loc StudentCreate}" Height="650" Width="800">
+    <Window.Resources>
+        <ControlTemplate x:Key="ValidationTemplate">
+            <StackPanel>
+                <Border BorderBrush="Red" BorderThickness="1,1,1,1">
+                    <AdornedElementPlaceholder x:Name="textBox" />
+                </Border>
+                <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red" />
+            </StackPanel>
+
+        </ControlTemplate>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="185*"/>
+            <RowDefinition Height="32*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,15,0,0">
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc Ime}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc Prezime}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc Datum rođenja}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc Adresa stanovanja}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc Broj telefona}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc E-mail adresa}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc Broj indeksa}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc Godina upisa}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc Trenutna godina studija}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+            <TextBlock TextWrapping="Wrap" Text="{ns:Loc Način finansiranja}" FontSize="18" TextAlignment="Center" Margin="0,10,0,15"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Margin="0,15,0,0">
+            <TextBox TextWrapping="Wrap" Text="{Binding Path=Ime, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247"  Margin="0,10,0,15" Height="23.94" TextChanged="TextBox_TextChanged"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding Path=Prezime, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247"  Margin="0,10,0,15" Height="23.94" TextChanged="TextBox_TextChanged"/>
+            <DatePicker SelectedDate="{Binding Path=DatumRodjenja, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247" Margin="0,10,0,15" Height="23.94" SelectedDateChanged="DatePicker_SelectedDateChanged" />
+            <TextBox TextWrapping="Wrap" Text="{Binding Path=Adresa, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247"  Margin="0,10,0,15" Height="23.94" TextChanged="TextBox_TextChanged"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding Path=BrTelefona, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247"  Margin="0,10,0,15" Height="23.94" TextChanged="TextBox_TextChanged"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding Path=Email, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247"  Margin="0,10,0,15" Height="23.94" TextChanged="TextBox_TextChanged"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding Path=BrIndeksa, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247"  Margin="0,10,0,15" Height="23.94" TextChanged="TextBox_TextChanged"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding Path=GodinaUpisa, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247"  Margin="0,10,0,15" Height="23.94" TextChanged="TextBox_TextChanged"/>
+            <ComboBox Name="GodinaStudijaComboBox" SelectedValuePath="Content" SelectedValue="{Binding Path=GodinaStudija, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247"  Margin="0,10,0,15" Height="23.94" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Prva"/>
+                <ComboBoxItem Content="Druga"/>
+                <ComboBoxItem Content="Treća"/>
+                <ComboBoxItem Content="Četvrta"/>
+            </ComboBox>
+            <ComboBox Name="StatusComboBox" SelectedValuePath="Content" SelectedValue="{Binding Path=Status, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Width="247" Margin="0,10,0,15" Height="23.94" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Budžet"/>
+                <ComboBoxItem Content="Samofinansiranje"/>
+            </ComboBox>
+        </StackPanel>
+        <Button Name="ButtonPotvrdi" Content="{ns:Loc Potvrdi}" Grid.Row="1" Grid.Column="0" Width="100" Height="40" Click="Button_Potvrdi_Click"/>
+        <Button Name="ButtonOdustani" Content="{ns:Loc Odustani}" Grid.Row="1" Grid.Column="1" Width="100" Height="40" Click="Button_Odustani_Click"/>
+    </Grid>
+</Window>

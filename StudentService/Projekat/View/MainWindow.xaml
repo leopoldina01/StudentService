@@ -1,0 +1,161 @@
+﻿<Window x:Class="WpfApp1.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:ns="clr-namespace:Projekat.Localization"
+        mc:Ignorable="d"
+        Title="{ns:Loc MainWindow}" Height="450" Width="800" WindowStartupLocation="CenterScreen" SizeChanged="Window_SizeChanged" KeyDown="Window_KeyDown">
+
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="366"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="{ns:Loc New}">
+                <MenuItem x:Name="MenuItem_New" Header="{ns:Loc New}" InputGestureText="Ctrl+N" Click="Menu_New_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/Assets/new_icon.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="{ns:Loc Save}" InputGestureText="Ctrl+S" Click="Menu_Save_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/Assets/save_icon.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="{ns:Loc Open}">
+                    <MenuItem Header="{ns:Loc Studenti}" Click="Menu_Open_Studenti_Click"></MenuItem>
+                    <MenuItem Header="{ns:Loc Predmeti}" Click="Menu_Open_Predmeti_Click"></MenuItem>
+                    <MenuItem Header="{ns:Loc Profesori}" Click="Menu_Open_Profesori_Click"></MenuItem>
+                    <MenuItem Header="{ns:Loc Katedre}" Click="Menu_Open_Katedre_Click"></MenuItem>
+                    <MenuItem.Icon>
+                        <Image Source="/Assets/open_icon.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="{ns:Loc Close}" InputGestureText="Ctrl+C" Click="Menu_Close_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/Assets/close_icon.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="{ns:Loc Edit}">
+                <MenuItem Header="{ns:Loc Edit}" InputGestureText="Ctrl+E" Click="Menu_Edit_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/Assets/edit_icon.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="MenuItem_Delete" Header="{ns:Loc Delete}" InputGestureText="Ctrl+D" Click="Menu_Delete_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/Assets/delete_icon.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="{ns:Loc Help}">
+                <MenuItem Header="{ns:Loc About}" InputGestureText="Ctrl+A">
+                    <MenuItem.Icon>
+                        <Image Source="/Assets/about_icon.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="MenuItem_Language" Header="{ns:Loc Language}" Click="Menu_Language_Click"/>
+        </Menu>
+        <TabControl x:Name="tabovi" Grid.Row="2">
+            <TabItem x:Name="Student" Header="{ns:Loc Studenti}" Height="22" Margin="-2,0,-2,0" VerticalAlignment="Bottom" GotFocus="Student_Focus">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid Grid.Row="1" x:Name="DataGridStudenti" ItemsSource="{Binding Path=Studenti, UpdateSourceTrigger=PropertyChanged}" 
+                  SelectedItem="{Binding SelectedStudent, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single"
+                  IsReadOnly="True" AutoGenerateColumns="False" Width="600" Height="325">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{ns:Loc Indeks}" Width="100" Binding="{Binding brIndeksa}"/>
+                            <DataGridTextColumn Header="{ns:Loc Ime}" Width="100" Binding="{Binding ime}" />
+                            <DataGridTextColumn Header="{ns:Loc Prezime}" Width="100" Binding="{Binding prezime}" />
+                            <DataGridTextColumn Header="{ns:Loc Godina studija}" Width="100" Binding="{Binding godinaStudija}" />
+                            <DataGridTextColumn Header="{ns:Loc Status}" Width="100" Binding="{Binding statusStr}" />
+                            <DataGridTextColumn Header="{ns:Loc Prosek}" Width="100" Binding="{Binding prosecnaOcena}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="{ns:Loc Profesori}" GotFocus="Profesor_Focus">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid Grid.Row="1" x:Name="DataGridProfesori" ItemsSource="{Binding Path=Profesori, UpdateSourceTrigger=PropertyChanged}" 
+                  SelectedItem="{Binding SelectedProfesor, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single"
+                  IsReadOnly="True" AutoGenerateColumns="False" Width="600" Height="325">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{ns:Loc Ime}" Width="150" Binding="{Binding ime}"/>
+                            <DataGridTextColumn Header="{ns:Loc Prezime}" Width="150" Binding="{Binding prezime}" />
+                            <DataGridTextColumn Header="{ns:Loc Zvanje}" Width="150" Binding="{Binding zvanje}" />
+                            <DataGridTextColumn Header="{ns:Loc E-mail adresa}" Width="150" Binding="{Binding email}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="{ns:Loc Predmeti}" GotFocus="Predmet_Focus">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid Grid.Row="1" x:Name="DataGridPredmeti" ItemsSource="{Binding Path=Predmeti, UpdateSourceTrigger=PropertyChanged}" 
+                  SelectedItem="{Binding SelectedPredmet, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single"
+                  IsReadOnly="True" AutoGenerateColumns="False" Width="600" Height="325">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{ns:Loc Šifra}" Width="120" Binding="{Binding sifra}"/>
+                            <DataGridTextColumn Header="{ns:Loc Naziv}" Width="120" Binding="{Binding naziv}" />
+                            <DataGridTextColumn Header="ESPB" Width="120" Binding="{Binding espb}" />
+                            <DataGridTextColumn Header="{ns:Loc Godina}" Width="120" Binding="{Binding godinaStudija}" />
+                            <DataGridTextColumn Header="{ns:Loc Semestar}" Width="120" Binding="{Binding semestar}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="{ns:Loc Katedre}" GotFocus="Katedra_Focus">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid Grid.Row="1" x:Name="DataGridKatedre" ItemsSource="{Binding Path=Katedre, UpdateSourceTrigger=PropertyChanged}" 
+                  SelectedItem="{Binding SelectedKatedra, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single"
+                  IsReadOnly="True" AutoGenerateColumns="False" Width="600" Height="325">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{ns:Loc Šifra}" Width="50" Binding="{Binding sifra}"/>
+                            <DataGridTextColumn Header="{ns:Loc Naziv}" Width="400" Binding="{Binding naziv}" />
+                            <DataGridTextColumn Header="{ns:Loc Šef}" Width="150" Binding="{Binding sef.ImePrezime}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <StatusBar Grid.Row="3" Background="#FFAFD4E8">
+            <StatusBarItem VerticalAlignment="Top">
+                <TextBlock TextWrapping="Wrap" Text="{Binding Path=SelektovaniTab, UpdateSourceTrigger=PropertyChanged}"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right" VerticalAlignment="Top">
+                <TextBlock TextWrapping="Wrap" Text="{Binding Path=DateTimeStr, Mode=OneWay}"/>
+            </StatusBarItem>
+        </StatusBar>
+        <ToolBarTray x:Name="ToolBarTrayMain" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch">
+            <ToolBar x:Name="ToolBarButtons" Margin="0,0,-800,0" HorizontalContentAlignment="Stretch">
+                <Button x:Name="Button_Add" Content="" HorizontalAlignment="Left" Width="26" Click="Menu_New_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/new_icon.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="Button_Edit" Content="" HorizontalAlignment="Left" Width="25" Click="Menu_Edit_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/edit_icon.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="Button_Delete" Content="" HorizontalAlignment="Left" Width="25" Click="Menu_Delete_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/delete_icon.png"/>
+                    </Button.Background>
+                </Button>
+                <Separator x:Name="SeparatorToolBar" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Background="{x:Null}"/>
+                <TextBox x:Name="TextBox_Search" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_Search_TextChanged"/>
+                <Button x:Name="Button_Search" Content="" HorizontalAlignment="Right" Width="22" Click="ButtonSerach_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/search_icon.png"/>
+                    </Button.Background>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+    </Grid>
+</Window>

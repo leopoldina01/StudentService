@@ -1,0 +1,6 @@
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Release\Projekat.exe.config
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Release\Projekat.exe
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Release\Projekat.pdb
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Release\Projekat.csproj.CoreCompileInputs.cache
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Release\Projekat.exe
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Release\Projekat.pdb

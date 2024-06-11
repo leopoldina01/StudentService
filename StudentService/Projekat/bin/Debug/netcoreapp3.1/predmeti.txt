@@ -1,0 +1,10 @@
+0|Matematicka analiza 1|Zimski|0|9
+1|Algebra|Zimski|2|9
+2|Verovatnoca|Zimski|2|9
+3|OPISA|Letnji|-1|9
+4|OISISI|Zimski|-1|9
+5|Predmet|Zimski|-1|0
+6|Programski prevodioci|Zimski|-1|9
+7|Baze podataka 1|Zimski|-1|9
+8|NANS|Zimski|-1|8
+9|Oisisi|Zimski|1|5

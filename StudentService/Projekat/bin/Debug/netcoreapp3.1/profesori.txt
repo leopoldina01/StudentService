@@ -1,0 +1,13 @@
+0|Rapaic|Milan|5/5/1981 12:00:00 AM|1|0643872987|rapaja@gmail.com|0|010112345|automaticar|10
+2|Stojakovic|Mila|1/1/1950 12:00:00 AM|-1|0611234567|mila@gmail.com|-1|010101010|matematicar|36
+3|Doroslovacki|Rade|1/1/1950 12:00:00 AM|-1|0612345678|rade@gmail.com|-1|123456789|matematicar|40
+4|Dimitrieski|Vladimir|1/1/1981 12:00:00 AM|-1|0612345678|vladimir@gmail.com|-1|123456789|data scientist|10
+5|Kupusinac|Aleksandar|1/1/1981 12:00:00 AM|-1|061234567|kupusinac@gmail.com|-1|123456789|programer|10
+6|Jelicic|Zoran|1/1/1983 12:00:00 AM|-1|0612345678|jelicic@gmail.com|-1|010101010|automaticar|10
+7|Vrbaski|Dunja|1/1/1990 12:00:00 AM|-1|0612345677|dunja@gmail.com|-1|123456789|programer|10
+8|Celikovic|Milan|1/1/1970 12:00:00 AM|-1|0618273843|celik@gmail.com|-1|123456789|programer|20
+9|Ksenija|Doroslovacki|1/1/1980 12:00:00 AM|-1|0612345678|ksenija@gmail.com|-1|010101010|matematicar|10
+10|Vrbaski|Dunja|1/1/2001 12:00:00 AM|-1|0612345678|dunja@gmail.com|-1|010101010|programer|10
+11|Dimitrievski|Vladimir|1/1/1981 12:00:00 AM|-1|0612345678|vladimir@gmail.com|-1|010010101|programer|10
+12|Sarenac|Balsa|1/1/1980 12:00:00 AM|-1|0612345678|balsa@gmail.com|-1|010101010|programer|10
+13|Mitrovic|Aleksandra|1/1/1989 12:00:00 AM|-1|061234567|aleksandra@gmail.com|-1|010101011|automatika|5

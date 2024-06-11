@@ -1,0 +1,174 @@
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.exe
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.deps.json
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.runtimeconfig.json
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.runtimeconfig.dev.json
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.dll
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.pdb
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.csproj.AssemblyReference.cache
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.AssemblyInfoInputs.cache
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.AssemblyInfo.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.csproj.CoreCompileInputs.cache
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.dll
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.pdb
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.genruntimeconfig.cache
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\about_icon.png
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\close_icon.png
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\delete_icon.png
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\edit_icon.png
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\new_icon.png
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\open_icon.png
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\save_icon.png
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat_Content.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat_MarkupCompile.cache
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat_MarkupCompile.lref
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.g.resources
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\search_icon.png
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\MainWindow.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\MainWindow.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\ProfesorCreate.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\ProfesorCreate.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\ProfessorChange.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\ProfessorChange.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\StudentCreate.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\StudentCreate.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\StudentChange.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\StudentChange.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\PredmetChange.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\PredmetCreate.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\PredmetChange.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\PredmetCreate.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\UpisOcene.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\UpisOcene.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmeta.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmeta.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\remove_icon.png
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\OdabirProfesora.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\OdabirProfesora.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmetaProfesoru.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmetaProfesoru.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjeSefa.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjeSefa.baml
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\bin\Debug\netcoreapp3.1\en-US\Projekat.resources.dll
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.Properties.Resources.resources
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.Properties.Resources.en-US.resources
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.csproj.GenerateResource.cache
+C:\Users\Leopoldina\Desktop\Projekat\Projekat\Projekat\obj\Debug\netcoreapp3.1\en-US\Projekat.resources.dll
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\about_icon.png
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\close_icon.png
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\delete_icon.png
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\edit_icon.png
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\new_icon.png
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\open_icon.png
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\remove_icon.png
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\save_icon.png
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Assets\search_icon.png
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.exe
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.deps.json
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.runtimeconfig.json
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.runtimeconfig.dev.json
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.dll
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\Projekat.pdb
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\bin\Debug\netcoreapp3.1\en-US\Projekat.resources.dll
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.csproj.AssemblyReference.cache
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmeta.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmetaProfesoru.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjeSefa.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\MainWindow.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\OdabirProfesora.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\PredmetChange.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\PredmetCreate.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\ProfesorCreate.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\ProfessorChange.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\StudentChange.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\StudentCreate.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\UpisOcene.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\App.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat_Content.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat_MarkupCompile.cache
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat_MarkupCompile.lref
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmeta.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmetaProfesoru.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjeSefa.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\MainWindow.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\OdabirProfesora.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\PredmetChange.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\PredmetCreate.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\ProfesorCreate.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\ProfessorChange.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\StudentChange.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\StudentCreate.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\View\UpisOcene.baml
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.g.resources
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.Properties.Resources.resources
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.Properties.Resources.en-US.resources
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.csproj.GenerateResource.cache
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.GeneratedMSBuildEditorConfig.editorconfig
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.AssemblyInfoInputs.cache
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.AssemblyInfo.cs
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.csproj.CoreCompileInputs.cache
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\en-US\Projekat.resources.dll
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.dll
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.pdb
+F:\Fakultet\5. semestar\OISISI\folderSaSvimeISvacimeZaProjekat\kopija10\Projekat\Projekat\obj\Debug\netcoreapp3.1\Projekat.genruntimeconfig.cache
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Assets\about_icon.png
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Assets\close_icon.png
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Assets\delete_icon.png
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Assets\edit_icon.png
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Assets\new_icon.png
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Assets\open_icon.png
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Assets\remove_icon.png
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Assets\save_icon.png
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Assets\search_icon.png
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Projekat.exe
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Projekat.deps.json
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Projekat.runtimeconfig.json
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Projekat.runtimeconfig.dev.json
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Projekat.dll
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\Projekat.pdb
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\bin\Debug\netcoreapp3.1\en-US\Projekat.resources.dll
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.csproj.AssemblyReference.cache
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmeta.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmetaProfesoru.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjeSefa.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\MainWindow.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\OdabirProfesora.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\PredmetChange.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\PredmetCreate.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\ProfesorCreate.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\ProfessorChange.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\StudentChange.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\StudentCreate.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\UpisOcene.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat_Content.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat_MarkupCompile.cache
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat_MarkupCompile.lref
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmeta.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjePredmetaProfesoru.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\DodavanjeSefa.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\MainWindow.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\OdabirProfesora.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\PredmetChange.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\PredmetCreate.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\ProfesorCreate.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\ProfessorChange.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\StudentChange.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\StudentCreate.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\View\UpisOcene.baml
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.g.resources
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.Properties.Resources.resources
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.Properties.Resources.en-US.resources
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.csproj.GenerateResource.cache
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.AssemblyInfoInputs.cache
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.AssemblyInfo.cs
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.csproj.CoreCompileInputs.cache
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\en-US\Projekat.resources.dll
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.dll
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.pdb
+C:\Users\Leopoldina\Documents\Projects\StudentService\StudentService\Projekat\obj\Debug\netcoreapp3.1\Projekat.genruntimeconfig.cache

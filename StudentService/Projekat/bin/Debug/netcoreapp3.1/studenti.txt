@@ -1,0 +1,8 @@
+0|Djanic|Leopoldina|7/17/2001 12:00:00 AM|0|0611472916|djanic.ra6.2020@uns.ac.rs|RA06-2020|2020|3|B|10
+1|Djukic|Aleksa|5/7/2001 12:00:00 AM|0|0603369655|aleksadjukic25@gmail.com|RA17-2020|2020|3|B|9
+2|Gligorov|Nevena|4/6/2001 12:00:00 AM|0|0658203984|gligorov.ra7.2020@uns.ac.rs|RA07-2020|2020|3|B|8.5
+3|Banjanac|Strahinja|12/29/2001 12:00:00 AM|-1|0639281479|banja@gmail.com|RA03-2020|2020|3|B|7
+4|Milic|Milica|1/1/2001 12:00:00 AM|-1|0612345678|milica@gmail.com|RA04-2020|2020|3|B|0
+5|Petrovic|Petar|2/2/2001 12:00:00 AM|-1|0601234567|petar@gmail.com|RA08-2020|2020|3|B|8
+6|Markovic|Njegos|1/1/2001 12:00:00 AM|-1|0612345678|marko@gmail.com|RA10-2020|2020|3|B|10
+7|alsdkjfh|a;sdflkjf;slkdj|3/2/2001 12:00:00 AM|1|0612345678|;slakdjf@gmail.com|ra12-2345|2020|4|B|0
